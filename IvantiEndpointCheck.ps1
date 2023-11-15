@@ -10,7 +10,7 @@ function AskForIPAddress($prompt) {
     return $ipAddress
 }
 
-$agentlessPorts = @(135, 445, 3121, 5120)
+$agentlessPorts = @(443, 25, 38, 5120)
 $agentPorts = @(3121, 4155)
 
 $inboundPorts = @(135, 445, 4155, 5120)
